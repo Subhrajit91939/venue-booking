@@ -6,9 +6,7 @@ body {
 
 .form-wrapper {
   background-color: #fff;
-  box-shadow:  20px 20px 60px #1d222a,
-             -20px -20px 60px #272e38;
-  margin: 100px auto 50px;
+  margin: 50px auto 50px;
   font-family: 'Montserrat';
   font-size: 1.09em;
   max-width: 400px;
@@ -29,12 +27,11 @@ a:active {text-decoration: none;}
 
 a:hover {text-decoration: none;}
 
-.form-wrapper.login h3{ margin-bottom: 30px; font-weight: 700; text-transform: uppercase;}
-.form-wrapper p { font-size: .8em; text-align: center; font-weight: 600; text-transform:capitalize;}
+.form-wrapper p { font-size: .8em; text-align: center; font-weight: 600; }
 .form-control:focus { box-shadow: none; }
 .form-wrapper {
   border-radius: 5px;
-  padding: 25px 20px 0px 20px;
+  padding: 25px 15px 0px 15px;
 }
 .form-wrapper.auth .form-title { color: #222831; }
 .home-wrapper button,
@@ -48,6 +45,10 @@ a:hover {text-decoration: none;}
   padding: 15px;
   border: 1px solid #222831;
 }
-button {
-  border: solid 1px  #fff;
+
+.form-title {
+  font-weight: 700; text-transform: uppercase; margin-bottom: 30px;
+}
+
+.form-group { font-weight: 700; text-transform: uppercase;
 }

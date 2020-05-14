@@ -9,7 +9,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="main_signup.css">
   <title>VBMS - Create Account</title>
 </head>
 <body>
@@ -40,7 +40,7 @@
             <input type="password" name="password" class="form-control form-control-lg">
           </div>
           <div class="form-group">
-            <label>Password Confirm</label>
+            <label>Confirm Password</label>
             <input type="password" name="passwordConf" class="form-control form-control-lg">
           </div>
         <div class="form-group">
