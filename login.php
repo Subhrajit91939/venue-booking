@@ -1,5 +1,6 @@
 <?php include 'config.php' ?>
 <?php include 'controllers/auth.php' ?>
+<?php include 'header.php'?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +36,7 @@
             <input type="password" name="password" class="form-control form-control-lg">
           </div>
           <div class="form-group">
-            <button type="submit" name="login-btn" class="btn btn-lg btn-block">Login</button>
+            <button type="submit" id="login-button" name="login-btn" class="btn btn-lg btn-block">Login</button>
           </div>
         </form>
         <p>Don't yet have an account? <a href="signup.php">Sign up</a></p>
