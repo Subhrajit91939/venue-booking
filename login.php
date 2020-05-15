@@ -16,7 +16,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4 offset-md-4 form-wrapper auth login">
-        <h3 class="text-center form-title ">Login</h3>
+        <h3 class="text-center form-title">Login</h3>
         <?php if (count($errors) > 0): ?>
         <div class="alert alert-danger">
             <?php foreach ($errors as $error): ?>

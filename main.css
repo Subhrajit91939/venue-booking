@@ -1,53 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
 li { list-style-type: none; }
-
-body {
-  background-color: #222831;
-}
-
 .form-wrapper {
-  background-color: #fff;
-  box-shadow:  20px 20px 60px #1d222a,
-             -20px -20px 60px #272e38;
-  margin: 100px auto 50px;
-  font-family: 'Montserrat';
+  margin: 50px auto 50px;
+  font-family: 'Lora', serif;
   font-size: 1.09em;
-  max-width: 400px;
 }
-
-@media screen and (min-width : 990px) {
-    .form-wrapper {
-      width: 100%;
-    }
-}
-@media screen and (min-width : 420px) {
-  .form-wrapper {
-    transform: scale(0.9)
-  }
-}
-
-a:active {text-decoration: none;}
-
-a:hover {text-decoration: none;}
-
-.form-wrapper.login h3{ margin-bottom: 30px; font-weight: 700; text-transform: uppercase;}
-.form-wrapper p { font-size: .8em; text-align: center; font-weight: 600; text-transform:capitalize;}
+.form-wrapper.login { margin-top: 120px; }
+.form-wrapper p { font-size: .8em; text-align: center; }
 .form-control:focus { box-shadow: none; }
 .form-wrapper {
+  border: 1px solid #80CED7;
   border-radius: 5px;
-  padding: 25px 20px 0px 20px;
+  padding: 25px 15px 0px 15px;
 }
-.form-wrapper.auth .form-title { color: #222831; }
+.form-wrapper.auth .form-title { color: #007EA7; }
 .home-wrapper button,
 .form-wrapper.auth button {
-  background: #222831;
+  background: #007EA7;
   color: white;
 }
 .home-wrapper {
   margin-top: 150px;
   border-radius: 5px;
-  padding: 15px;
-  border: 1px solid #222831;
-}
-button {
-  border: solid 1px  #fff;
+  padding: 10px;
+  border: 1px solid #80CED7;
 }

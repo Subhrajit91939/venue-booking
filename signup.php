@@ -12,7 +12,7 @@ require_once 'header.php';
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="main_signup.css">
+  <link rel="stylesheet" href="main.css">
   <title>VBMS - Create Account</title>
 </head>
 <body>
@@ -43,7 +43,7 @@ require_once 'header.php';
             <input type="password" name="password" class="form-control form-control-lg">
           </div>
           <div class="form-group">
-            <label>Confirm Password</label>
+            <label>Password Confirm</label>
             <input type="password" name="passwordConf" class="form-control form-control-lg">
           </div>
         <div class="form-group">
